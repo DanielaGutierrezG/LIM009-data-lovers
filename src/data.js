@@ -1,29 +1,5 @@
 /* Manejo de data */
 
-const filterData=(data,condition)=>{
-let nuevosPokemones = [];
-
-    for(let i=0;i<data.length;i++){
-
-      let x = data[i].type;
-      
-      for(let j=0;j<x.length;j++){
-      
-      if(x[j]===condition){
-
-      nuevosPokemones.push(data[i]);
-        
-
-     return nuevosPokemones;
-    
-}
-      }
-    }
-  }
-  window.filterData= filterData;
-
-
-
 const average = (pokemons,peso)=>{
 
 let newarray=[];
