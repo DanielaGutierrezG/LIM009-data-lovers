@@ -31,3 +31,9 @@ selecType.addEventListener("change",()=>{
     return template;
   }
   root.innerHTML=printPokemons(data);
+
+
+
+
+  document.getElementById("resultado").value = resultado;
+    promedio=window.average(pokemons, peso);
